@@ -1,2 +1,7 @@
 # created by virtualenv automatically
 .venv/Lib
+__pycache__/
+*.pyc
+db.json
+errors.txt
+response_*.json
