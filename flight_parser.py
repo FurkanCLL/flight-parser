@@ -4,7 +4,7 @@
 
 import argparse
 from pathlib import Path
-from typing import Optional, Dict, Any, List, Tuple
+from typing import Optional, Dict, Any, List
 from datetime import datetime
 
 from csv_loader import read_csv_file, read_csv_from_directory
