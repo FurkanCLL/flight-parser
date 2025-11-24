@@ -7,7 +7,6 @@ The program can read flight schedule data from CSV files, validate each row, sav
 
 Everything is implemented with the Python standard library only.
 
----
 
 ## Features
 
@@ -20,7 +19,6 @@ Everything is implemented with the Python standard library only.
 - Run queries from a JSON file with `-q`
 - Save query results to a response JSON file with a timestamp in the file name
 
----
 
 ## Data format
 
