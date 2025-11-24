@@ -33,3 +33,23 @@ Example:
 ```text
 BA2490,LHR,JFK,2025-11-14 10:30,2025-11-14 13:05,489.99
 LH172,FRA,RIX,2025-11-12 07:15,2025-11-12 10:30,159.50
+```
+
+
+## Example Commands 
+
+### Parse CSV and export
+
+```python flight_parser.py -i data/db.csv```
+
+### Parse multiple CSVs in folder
+
+```python flight_parser.py -d data/flights/```
+
+### Use existing JSON database
+
+```python flight_parser.py -j db.json```
+
+### Run queries from file
+
+```python flight_parser.py -j db.json -q query.json```
